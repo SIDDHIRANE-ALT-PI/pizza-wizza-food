@@ -1,0 +1,29 @@
+create directory structure 
+create a new project and install all dependancies
+-dependancies
+-express
+-ejs express-ejs-layouts
+-Dev dependancies
+-nodemon
+
+create express server-create a server.js file
+create home page using html and css 
+-include tailwind css
+
+Create cart page
+order summary section
+empty card section
+
+create order controller and link it in server.js
+create orders view with table for customer and admin
+create orders single page with status
+create login page with route 
+create register page with route
+
+build register crud
+dependancies express-flash express-session cookie-parser dotenv
+status code article https://www.restapitutorial.com/httpstatusCodes.html
+database connection .dependancies sequelize
+
+build login using passport
+

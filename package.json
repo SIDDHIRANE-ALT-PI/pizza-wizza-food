@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "node-sass": "^8.0.0"
+  },
+  "name": "pizza-wizza-30-jan2023",
+  "version": "1.0.0",
+  "description": "real time pizza tracker app ",
+  "main": "app.js",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.49",
+    "nodemon": "^2.0.20",
+    "scss-watch": "sass --no-source-map --watch scss/_variable.scss resources/scss/app.css"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "serve": "node app.js",
+    "dev": "nodemon app.js",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [
+    "console",
+    "require",
+    "const",
+    "get",
+    "post",
+    "listen",
+    "log"
+  ],
+  "author": "siddhi&aish",
+  "license": "ISC"
+}

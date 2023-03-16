@@ -1,0 +1,72 @@
+@import './variables';
+// $primary : red ;
+
+
+body {
+    font-family:  'Lato' ,sans-serif  ;
+    -webkit-font-smoothing:antialiased ;
+    color: $dark  ;
+    // height: 4000px;
+}
+
+nav div ul li:last-child a  {
+    background: $primary;
+    border: 5px solid red;
+    &:hover{
+        background:$primary-hover;
+    }
+
+}
+
+nav li a {
+    // transition:all.3s ease-in-out;
+    // or
+    transition :  $smooth;
+    &:hover{
+        color:$primary;
+    }
+
+}
+
+section.hero{
+    background:$secondary;
+}
+
+.size {
+    background:$secondary;
+}
+
+.add-to-cart {
+    border: 2px solid $primary;
+    color: $primary;
+    transition: $smooth;
+    &:hover{
+        background: $primary;
+        border-color: $pure;
+        color: $pure;
+    }
+}
+
+
+.btn-primary{
+    background-color: $primary;
+    &:hover{
+        background:$primary-hover;
+        transition: $smooth ;
+    }
+}
+
+
+section.cart{
+    background: $secondary;
+    .amount{
+        color: $primary;
+    }
+}
+section.login{
+    background:$secondary;
+    min-height:calc(100vh-86px);
+}
+// nav li a:hover {
+// color:$primary;
+// }
